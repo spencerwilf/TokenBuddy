@@ -1,5 +1,8 @@
 # TokenBuddy
 
+## Live Link
+<a href='https://token-buddy.vercel.app/'>Access the live site here</a>
+
 ## Overview
 
 TokenBuddy is a decentralized web application that allows users to permissionlessly launch ERC20 tokens. This is achieved through a custom "TokenFactory" smart contract which creates new ERC20 tokens. Because the application relies on the Ethereum blockchain rather than a traditional backend, anybody in the world can use TokenBuddy forever as long as the Ethereum netork persists. The complexities of token creation are abstratced away by a simple, intuitive Next.js frontend.
@@ -28,29 +31,3 @@ TokenBuddy is a decentralized web application that allows users to permissionles
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-For any questions or feedback, please feel free to reach out:
-
-- Email: [johnadelakun1@gmail.com](mailto:johnadelakun1@gmail.com)
-- Twitter: [@kunjongroup](https://twitter.com/kunjongroup)
-
-Happy coding!
-
-
-<p align="center"> 
-  <p>
-    Built with:
-    - Hardhat
-    - Solidity
-    - OpenZeppelin
-    - Next.js
-    - Tailwind
-    - DaisyUI
-    - Express
-    - wagmi
-    - viem
-    - ConnectKit
-  </p>
-</p>
