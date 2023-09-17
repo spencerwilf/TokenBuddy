@@ -2,7 +2,7 @@
 import React, {useState, useEffect} from 'react'
 import { http, parseAbiItem, parseEther, webSocket, getContract } from 'viem'
 import { readContract, waitForTransaction, writeContract } from "wagmi/actions";
-import {abi} from '../../../artifacts/contracts/ERC20Factory.sol/ERC20Factory.json'
+import {abi} from '../../abi.json'
 import { sepolia, useAccount, useConnect, useDisconnect } from "wagmi";
 import { InjectedConnector } from 'wagmi/connectors/injected'
 import { createPublicClient } from 'viem'
