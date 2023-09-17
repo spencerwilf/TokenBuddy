@@ -60,7 +60,7 @@ async function verifyOnEtherscan(tokenAddress, args) {
         constructorArguements: args
     };
 
-    const response = await axios.post('https://api-sepolia.etherscan.io/api', qs.stringify(verificationData), {
+    await axios.post('https://api-sepolia.etherscan.io/api', qs.stringify(verificationData), {
         headers: {
         'Content-Type': 'application/x-www-form-urlencoded' // or 'application/json'
     }
