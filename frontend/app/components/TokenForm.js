@@ -127,7 +127,7 @@ const TokenForm = () => {
         <h2 className="font-retro border-t  text-white text-5xl flex justify-center px-4 py-6">GM. Enter a name for your token</h2>
         <div className="join flex justify-center py-6 px-4 rounded-b-xl">
             <div className='flex items-center flex-col gap-10'>
-                <input onChange={e => setName(e.target.value)} value={name} className="input font-retro text-3xl input-bordered join-item mr-4 bg-white rounded shadow-inner" placeholder="Token name"/>
+                <input onChange={e => setName(e.target.value)} value={name} className="input font-retro text-3xl input-bordered text-black join-item mr-4 bg-white rounded shadow-inner" placeholder="Token name"/>
                 <button className='bg-purple-500 font-retro text-2xl text-white font-bold rounded shadow-lg hover:bg-purple-600 w-40 h-10' disabled={!name} onClick={handleStep}>Next</button>
             </div>
         </div>
@@ -145,7 +145,7 @@ const TokenForm = () => {
         <h2 className=" border-t font-retro text-white text-5xl flex justify-center px-4 py-6">Nice! Now pick a symbol</h2>
         <div className="join flex justify-center py-6 px-4 rounded-b-xl">
             <div className='flex items-center flex-col gap-10'>
-                <input onChange={e => setSymbol(e.target.value)} value={symbol} className="input font-retro text-3xl input-bordered join-item mr-4 bg-white rounded shadow-inner" placeholder="Token symbol"/>
+                <input onChange={e => setSymbol(e.target.value)} value={symbol} className="input font-retro text-3xl input-bordered text-black join-item mr-4 bg-white rounded shadow-inner" placeholder="Token symbol"/>
                 <div className='flex gap-6'>
                 <button className='bg-purple-500 font-retro text-2xl  text-white font-bold rounded shadow-lg hover:bg-purple-600 w-40 h-10 ' onClick={handleBack} >Back</button>
                 <button className='bg-purple-500 font-retro text-2xl text-white font-bold rounded shadow-lg hover:bg-purple-600 w-40 h-10' disabled={!symbol} onClick={handleStep}>Next</button>
@@ -165,7 +165,7 @@ const TokenForm = () => {
         <h2 className=" border-t font-retro text-white text-5xl flex justify-center px-4 py-6">Now set the supply</h2>
         <div className="join flex justify-center py-6 px-4 rounded-b-xl">
             <div className='flex items-center flex-col gap-10'>
-                <input onChange={e => setSupply(e.target.value)} value={supply} className="input font-retro text-3xl input-bordered join-item mr-4 bg-white rounded shadow-inner" placeholder="Token supply"/>
+                <input onChange={e => setSupply(e.target.value)} value={supply} className="input font-retro text-3xl input-bordered text-black join-item mr-4 bg-white rounded shadow-inner" placeholder="Token supply"/>
                 <div className='flex gap-6'>
                 <button className='bg-purple-500 font-retro text-2xl  text-white font-bold rounded shadow-lg hover:bg-purple-600 w-40 h-10 ' onClick={handleBack} >Back</button>
                 <button className='bg-purple-500 font-retro text-2xl text-white font-bold rounded shadow-lg hover:bg-purple-600 w-40 h-10' disabled={!symbol} onClick={handleStep}>Next</button>
@@ -183,7 +183,7 @@ const TokenForm = () => {
         <div className="mockup-browser-toolbar ">
             <div className=" input">https://tokenbuddy.com/deploy</div>
         </div>
-        <h2 className=" border-t font-retro text-white text-5xl flex justify-center px-4 py-6">Does everything look okay?</h2>
+        <h2 className=" border-t font-retro text-white text-5xl flex justify-center px-4 py-6">Does everything look good?</h2>
         <div className="join flex justify-center py-6 px-4 rounded-b-xl">
             <div className='flex  flex-col gap-8'>
 
